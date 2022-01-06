@@ -1,0 +1,84 @@
+@import '~bpk-mixins';
+
+.TripEntry {
+  margin: 1rem 0;
+  padding: $bpk-spacing-sm $bpk-spacing-xs $bpk-spacing-sm $bpk-spacing-sm;
+  background: $bpk-color-white;
+  font-size: $bpk-font-size-sm;
+  box-shadow: 0 0 0 $bpk-one-pixel-rem $bpk-color-sky-gray-tint-06;
+
+  @media (min-width: $bpk-one-pixel-rem * 1024) {
+    border-radius: $bpk-one-pixel-rem * 6;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+
+    @media (min-width: $bpk-one-pixel-rem * 600) {
+      flex: 1;
+    }
+
+    @media (max-width: $bpk-one-pixel-rem * 599) {
+      justify-content: space-between;
+    }
+  }
+
+  &__codeshares {
+    margin-top: $bpk-one-pixel-rem * 6;
+    margin-left: $bpk-one-pixel-rem * 36;
+  }
+
+  &__left {
+    @media (min-width: $bpk-one-pixel-rem * 600) {
+      display: flex;
+      flex-flow: nowrap;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      flex: 1 65%;
+    }
+  }
+
+  &__right {
+    flex-direction: column;
+    text-align: right;
+
+    @media (min-width: $bpk-one-pixel-rem * 600) {
+      display: flex;
+      padding-top: 0;
+      flex-direction: row-reverse;
+      align-items: center;
+      flex: 1 35%;
+    }
+  }
+
+  &__date {
+    display: flex;
+    align-items: center;
+
+    @media (min-width: $bpk-one-pixel-rem * 600) {
+      width: 35%;
+    }
+  }
+
+  &__length {
+    display: flex;
+    align-items: center;
+
+    @media (min-width: $bpk-one-pixel-rem * 600) {
+      width: 30%;
+    }
+  }
+
+  &__price {
+    display: flex;
+    align-items: center;
+
+    @media (min-width: $bpk-one-pixel-rem * 600) {
+      width: 35%;
+    }
+  }
+
+}

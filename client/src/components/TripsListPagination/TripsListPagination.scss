@@ -1,0 +1,38 @@
+@import '~bpk-mixins';
+
+.Trips {
+  margin-bottom: 2.625rem;
+  padding: 1rem;
+  font-size: 1.875rem;
+  line-height: 2.4375rem;
+  font-weight: 400;
+}
+
+
+.TripPagination {
+  padding: 1rem !important;
+}
+
+
+.Header {
+  display: flex;
+  flex-direction: row;
+}
+
+.Date {
+  display: flex;
+  align-items: center;
+
+  @media (min-width: $bpk-one-pixel-rem * 600) {
+    width: 34%;
+  }
+}
+
+.Length {
+  display: flex;
+  align-items: center;
+
+  @media (min-width: $bpk-one-pixel-rem * 600) {
+    width: 32%;
+  }
+}

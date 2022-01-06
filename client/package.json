@@ -1,0 +1,48 @@
+{
+  "name": "ridescooter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "backpack-react-scripts": "8.0.0-beta.41a3a687f",
+    "bpk-component-pagination": "^3.0.23",
+    "classnames": "^2.2.6",
+    "google-map-react": "^2.1.9",
+    "node-sass": "^4.12.0",
+    "react-google-maps": "^9.4.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "bpk-component-button": "^3.3.24",
+    "bpk-component-code": "^2.0.108",
+    "bpk-component-icon": "^8.3.16",
+    "bpk-component-map": "^4.0.32",
+    "bpk-component-panel": "^3.0.20",
+    "bpk-component-popover": "^4.0.30",
+    "bpk-component-progress": "^3.0.21",
+    "bpk-component-text": "^3.1.43",
+    "bpk-mixins": "^20.1.25",
+    "bpk-stylesheets": "^6.0.75",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^5.2.0",
+    "react16-async-script-loader": "^0.2.4"
+  }
+}
